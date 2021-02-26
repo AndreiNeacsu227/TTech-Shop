@@ -5,7 +5,7 @@ function HomeCategory(props) {
     const {route, name, description, image} = props;
 
     return(
-        <div className="col-12 col-md-6 my-3">
+        <div className="col-12 col-md-6 my-3 d-flex align-items-end">
             <Link to={`/category/${route}`}>
                 <div className="w-100">
                     <img src={image} alt={name} className="w-100"/>

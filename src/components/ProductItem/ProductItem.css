@@ -1,0 +1,22 @@
+.product-item img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.addToFavoritesIcon{
+    width: 30px;
+}
+
+
+.addToFavoritesIcon:hover{
+    cursor: pointer;
+
+}
+
+.liked{
+    width: 30px;
+}
+
+.liked:hover{
+    cursor: pointer;
+}

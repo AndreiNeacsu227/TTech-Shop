@@ -1,236 +1,251 @@
 {
-    "shoes": {
+    "consoles": {
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
-                "price": 135,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
+                "name": "Ps4 PRO",
+                "price": 1700,
+                "currency": "RON",
+                "image": "https://i.imgur.com/z5Kdlnx.jpg",
+                "brand": "Sony",
+                "description": "Prin intermediul unui televizor 4K, jocurile PS4 vor oferi un nivel fara precedent de acuitate vizuala, astfel incat vei observa si cele mai mici detalii. Pe langa culorile vibrante HDR, aventurile tale vor capata o noua semnificatie."
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
-                "price": 100,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Pânză",
-                "brand": "Polo Ralph Lauren",
-                "description": "Teniși din pânză cu talpă inițial albă, din colecția de primăvară-vară 2019, Fashion Days."
+                "name": "PS4 Slim",
+                "price": 1400,
+                "currency": "RON",
+                "image": "https://i.imgur.com/cau1Q4B.png",
+                "brand": "Sony",
+                "description": "Cu 30% mai supla si 16% mai usoara fata de consola PS4 originala."
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
-                "price": 185,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
-                "colour": "Maro",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
+                "name": "PS5",
+                "price": 2500,
+                "currency": "RON",
+                "image": "https://i.imgur.com/40xSAo7.jpg",
+                "brand": "Sony",
+                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
+            },
+			{
+                "id": 4,
+                "name": "Xbox One S",
+                "price": 950,
+                "currency": "RON",
+                "image": "https://i.imgur.com/3rJxiGP.jpg",
+                "brand": "Microsoft",
                 "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
             }
         ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
+        "image": "https://i.imgur.com/lHJPSe8.jpg",
+        "name": "Console",
+        "description": "Console Xbox/PS"
     },
-    "sweaters": {
+    "laptops": {
         "items": [
             {
-                "id": 4,
-                "name": "Pulovăr finuț cu guler",
-                "price": 95,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/6afzuEr.jpg",
-                "size": "L",
-                "colour": "Maro",
-                "material": "Cașmir",
-                "brand": "DS Damat",
-                "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
-            },
-            {
                 "id": 5,
-                "name": "Pulovăr multicolor",
-                "price": 105,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/s0VytKc.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "McNeal",
-                "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
+                "name": "Lenovo Idea Pad3",
+                "price": 1950,
+                "currency": "RON",
+                "image": "https://i.imgur.com/RqbQj88.jpg",
+                "brand": "Lenovo",
+                "description": "Mai performat ca niciodata, noul Lenovo Idea Pad3."
             },
             {
                 "id": 6,
-                "name": "Pulovăr călduros și frumos",
-                "price": 165,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/BWGgzlK.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Lână",
-                "brand": "SELECTED",
-                "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
+                "name": "Asus TUF fx505DT",
+                "price": 3100,
+                "currency": "RON",
+                "image": "https://i.imgur.com/XBLQFGX.jpg",
+                "brand": "Asus",
+                "description": "Noile placi video aduc o performanta imbunatatita laptopurilor asus TUF"
             },
             {
                 "id": 7,
-                "name": "Pulovăr din lână",
-                "price": 160,
+                "name": "Acer Swift 5",
+                "price": 6500,
+                "currency": "RON",
+                "image": "https://i.imgur.com/PUNWm5N.jpg",
+                "brand": "Acer",
+                "description": "Design mai uimitor ca niciodata"
+            },
+            {
+                "id": 8,
+                "name": "Asus Zephyrus",
+                "price": 7500,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/dTcMbHT.jpg",
-                "size": "L",
-                "colour": "Crem",
-                "material": "Lână",
-                "brand": "Massimo Dutti",
-                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
+                "image": "https://i.imgur.com/Ua48E1S.jpg",
+                "brand": "Asus",
+                "description": "Doua monitoare intr-un singur dispozitiv. Performanta si design unice."
             }
         ],
-        "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovărașe elegănțele, slim, clasă superioară."
+        "image": "https://i.imgur.com/4hTjSR8.jpg",
+        "name": "Laptopuri",
+        "description": "Laptopuri la cel mai mic pret."
     },
-    "pants": {
+    "mouse": {
         "items": [
             {
                 "id": 8,
-                "name": "Blugi bleumarin slim fit",
+                "name": "HP wired mouse 100",
                 "price": 35,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/VhpATO8.jpg",
-                "size": "34",
-                "colour": "Bleumarin închis",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
+                "currency": "RON",
+                "image": "https://i.imgur.com/IFwEjOO.jpg",
+                "brand": "HP",
+                "description": "Mouse simplu la cel mai bun pret"
             },
             {
                 "id": 9,
-                "name": "Blugi negri slim fit",
-                "price": 40,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/weiI07t.jpg",
-                "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
-            }
-        ],
-        "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
-    },
-    "jackets": {
-        "items": [
+                "name": "Razor mamba black",
+                "price": 250,
+                "currency": "RON",
+                "image": "https://i.imgur.com/U25KX3n.jpg",
+                "brand": "Razor",
+                "description": "Ultima generatie de mouse-uri razor."
+            },
             {
                 "id": 10,
-                "name": "Haină lungă din lână virgină",
-                "price": 210,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/IXrZitQ.jpg",
-                "size": "L",
-                "colour": "Gri închis",
-                "material": "Lână virgină",
-                "brand": "Peek and Cloppenburg",
-                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
+                "name": "Hp pavilion 300",
+                "price": 40,
+                "currency": "RON",
+                "image": "https://i.imgur.com/qXfL9NH.jpg",
+                "brand": "HP",
+                "description": "Din gama pavilion acum noile mouse-uri."
             },
             {
                 "id": 11,
-                "name": "Geacă bleumarin cu glugă detașabilă",
-                "price": 250,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/eCZd7PU.jpg",
-                "size": "L",
-                "colour": "Bleumarin",
-                "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+                "name": "BenQ zowie",
+                "price": 105,
+                "currency": "RON",
+                "image": "https://i.imgur.com/AqulaXj.jpg",
+                "brand": "BenQ",
+                "description": "Simplu eficient si ieftin."
             }
         ],
-        "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
+        "image": "https://i.imgur.com/ObSgA3G.jpg",
+        "name": "Mouseuri",
+        "description": "Ultimele modele de mouse"
     },
-    "tshirts": {
+    "keyboards": {
         "items": [
             {
                 "id": 12,
-                "name": "Tricou în dungi",
-                "price": 90,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/BWvzCwB.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "Lacoste",
-                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
+                "name": "Steelseries apex pro tkl",
+                "price": 412,
+                "currency": "RON",
+                "image": "https://i.imgur.com/EhIUEwy.jpg",
+                "brand": "Steelseries",
+                "description": "Mai silentioasa ca niciodata noua serie apex."
             },
             {
                 "id": 13,
-                "name": "Tricou de ping pong",
-                "price": 110,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/4BbF4TO.jpg",
-                "size": "L",
-                "colour": "Roșu",
-                "material": "Poliester",
-                "brand": "Li Ning",
-                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
+                "name": "Havit blue switch 104",
+                "price": 250,
+                "currency": "RON",
+                "image": "https://i.imgur.com/sV8vviX.jpg",
+                "brand": "Havit",
+                "description": "Kit tastatura si mouse Havit."
             },
             {
                 "id": 14,
-                "name": "Tricou original BVB cu autograf",
-                "price": 1909,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/etIsbHV.jpg",
-                "size": "L",
-                "colour": "Galben-Negru",
-                "material": "Poliester",
-                "brand": "Puma",
-                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
+                "name": "Mk1 red led",
+                "price": 333,
+                "currency": "RON",
+                "image": "https://i.imgur.com/64mAxk1.jpg",
+                "brand": "Mk1",
+                "description": "Tastatura cu luminite rosii."
+            },
+            {
+                "id": 15,
+                "name": "Kinesis freestyle edge rgb",
+                "price": 412,
+                "currency": "RON",
+                "image": "https://i.imgur.com/znIOdhn.jpg",
+                "brand": "Kinesis",
+                "description": "Design unic superior."
             }
         ],
-        "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Și de băiețeală și de sport."
+        "image": "https://i.imgur.com/xjPT4xA.jpg",
+        "name": "Tastaturi",
+        "description": "Tastaturi mecanice la pret avantajos!"
     },
-    "accesories": {
+    "phones": {
+        "items": [
+            {
+                "id": 16,
+                "name": "Motorola one zoom",
+                "price": 900,
+                "currency": "RON",
+                "image": "https://i.imgur.com/Hl51OSS.jpg",
+                "brand": "Motorola",
+                "description": "Acum cu un zoom de 50X."
+            },
+            {
+                "id": 17,
+                "name": "Samsung Galaxy A51",
+                "price": 1500,
+                "currency": "RON",
+                "image": "https://i.imgur.com/MtwBh0o.jpg",
+                "brand": "Samsung",
+                "description": "Cel mai avantajos pret pentru buget."
+            },
+            {
+                "id": 18,
+                "name": "Huawei P40 lite",
+                "price": 1909,
+                "currency": "RON",
+                "image": "https://i.imgur.com/tOjGiMz.jpg",
+                "brand": "Huawei",
+                "description": "Procesor cu 12 nuclee, mai performant ca niciodata."
+            },
+            {
+                "id": 19,
+                "name": "Huawei psmart Z",
+                "price": 1909,
+                "currency": "RON",
+                "image": "https://i.imgur.com/ymQh1xy.jpg",
+                "brand": "Huawei",
+                "description": "Bucurate de noua camera ce se poate acoperi."
+            }
+        ],
+        "image": "https://i.imgur.com/lMUhCoT.jpg",
+        "name": "Telefoane",
+        "description": "Telefoane de ultima generatie."
+    },
+    "tv": {
         "items": [
             {
                 "id": 15,
-                "name": "Fular TJ cu două fețe",
-                "price": 85,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/rSVUiLO.jpg",
-                "size": "Universal",
-                "colour": "Gri-Bleumarin",
-                "material": "Cașmir",
-                "brand": "Trussardi Jeans",
-                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
+                "name": "LG smart 4k 50UN740",
+                "price": 4000,
+                "currency": "RON",
+                "image": "https://i.imgur.com/A8wXII7.jpg",
+                "brand": "LG",
+                "description": "Smart si 4k la pachet la un pret incredibil."
             },
             {
                 "id": 16,
-                "name": "Mănuși din piele",
-                "price": 60,
-                "currency": "LEI",
-                "image": "https://i.imgur.com/LbjGaZ1.jpg",
-                "size": "L",
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "DS Damat",
-                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
+                "name": "LG 55 inch class 4k",
+                "price": 1500,
+                "currency": "RON",
+                "image": "https://i.imgur.com/dkUWZCv.jpg",
+                "brand": "LG",
+                "description": "Televizor 4k cu o diagonala uriasa de 55 inch."
+            },
+            {
+                "id": 17,
+                "name": "Bash 22 inch smart full hd",
+                "price": 2550,
+                "currency": "RON",
+                "image": "https://i.imgur.com/GoUUOkO.jpg",
+                "brand": "Bash",
+                "description": "Noile televizoare bash la un pret avantajos."
             }
         ],
-        "image": "https://i.imgur.com/qw3wDj8.jpg",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+        "image": "https://i.imgur.com/bMYevgI.jpg",
+        "name": "Televizoare",
+        "description": "Televizoare smart/4K!"
     }
 }

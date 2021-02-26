@@ -7,3 +7,7 @@ header .logout:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.heartIcon{
+    width:20px;
+}

@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
-import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
+import Logo from '../../assets/images/logo.png';
+import { ReactComponent as ShoppingCart } from '../../assets/icons/shopping-cart.svg';
+import { ReactComponent as FavoritesHeart } from '../../assets/icons/coloredHeart.svg';
 import './Header.css';
 import { connect } from 'react-redux';
-import { logoutUser } from '../redux/actions/user';
+import { logoutUser } from '../../redux/user/userActions';
 
 function Header(props) {
     return(
         <header className="border-bottom mb-3">
             <div className="container-fluid container-min-max-width d-flex justify-content-between align-items-center">
                 <Link to="/" className="my-3">
-                    <img src={Logo} alt="Sirluggia Shop" className="logo"/>
+                    <img src={Logo} alt="Sirluggia Shop" className="w-50 logo"/>
                 </Link>
                 <div>
                     { props.user
@@ -24,6 +25,10 @@ function Header(props) {
                             : <Link to="/login" className="h5 mb-0">Logare</Link>
                         }
                         <div className="d-flex align-items-center">
+                            <Link to="/favorites" className="d-flex">
+                                <FavoritesHeart className="ml-2 heartIcon"/>
+                                <p className="ml-1 mb-0">{ props.numberOfFavoriteProducts }</p>
+                            </Link>
                             <Link to="/cart" className="d-flex">
                                 <ShoppingCart className="ml-2"/>
                                 <p className="ml-1 mb-0">{ props.numberOfProducts }</p>
@@ -39,7 +44,8 @@ function Header(props) {
 function mapStateToProps(state) {
     return {
         numberOfProducts: state.cart.products.length,
-        user: state.user.data
+        user: state.user.data,
+        numberOfFavoriteProducts : state.favorites.products.length
     }
 }
 function mapDispatchToProps(dispatch) {
